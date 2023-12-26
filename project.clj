@@ -12,7 +12,7 @@
                   ["change" "version" "leiningen.release/bump-version"]
                   ["vcs" "commit"]
                   ["vcs" "push"]]
-  :deploy-repositories [["releases" config 
+  :deploy-repositories [["releases"
                          {:sign-releases false 
                           :url "https://clojars.org"
                           :username :env/clojars_user
