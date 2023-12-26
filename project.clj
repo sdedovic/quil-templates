@@ -16,5 +16,10 @@
                          {:sign-releases false 
                           :url "https://clojars.org"
                           :username :env/clojars_user
+                          :password :env/clojars_token}]
+                        ["snapshots"
+                         {:sign-releases false 
+                          :url "https://clojars.org"
+                          :username :env/clojars_user
                           :password :env/clojars_token}]]
   :eval-in-leiningen true)
