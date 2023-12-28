@@ -17,11 +17,13 @@
 (defn draw [state]
   (q/background 0 0 100)
 
-  (with-style
-   (q/stroke 0 80 70)
-   (q/fill 0 80 70)
-   
-   (q/triangle 
-     (w 0.1) (h 0.1)
-     (w 0.9) (h 0.9) 
-     (w 0.1) (h 0.9))))
+  (let [frame (:frame state)
+        f (/ frame 300)]
+    (with-style
+     (q/stroke 0 0 0)
+     (q/fill (* f 360) 80 70)
+
+     (q/triangle
+       (w 0.1) (h 0.1)
+       (w 0.9) (h 0.9)
+       (w 0.1) (h 0.9)))))

@@ -1,4 +1,4 @@
-(defproject com.dedovic/lein-template.quil-starter "0.1.0"
+(defproject com.dedovic/lein-template.quil-starter "0.1.1-SNAPSHOT"
   :description "Leiningen template for a Quil starter project."
   :url "https://github.com/sdedovic/quil-templates"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
@@ -14,12 +14,7 @@
                   ["vcs" "push"]]
   :deploy-repositories [["releases"
                          {:sign-releases false 
-                          :url "https://clojars.org"
-                          :username :env/clojars_user
-                          :password :env/clojars_token}]
-                        ["snapshots"
-                         {:sign-releases false 
-                          :url "https://clojars.org"
+                          :url "https://clojars.org/repo"
                           :username :env/clojars_user
                           :password :env/clojars_token}]]
   :eval-in-leiningen true)
