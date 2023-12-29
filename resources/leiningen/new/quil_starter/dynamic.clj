@@ -5,14 +5,9 @@
             ; [genartlib.geometry :refer :all]
             ; [genartlib.random :refer :all]
             ; [kdtree :as kd]
-            [clojure.core.matrix :refer [set-current-implementation]]
             [artlib.quil.global :refer :all]
             [genartlib.util :refer [w h]]
             [quil.core :as q]))
-
-(set-current-implementation :vectorz)
-(println)
-(println)
 
 (defn draw [state]
   (q/background 0 0 100)

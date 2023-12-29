@@ -1,8 +1,12 @@
 (ns sketch.core
-  (:require [quil.core :as q]
+  (:require [artlib.quil.middleware :refer [animation-mode]]
+            [clojure.core.matrix :refer [set-current-implementation]]
             [quil.middleware :as qm]
-            [artlib.quil.middleware :refer [animation-mode]]
-            [sketch.dynamic :as dynamic]))
+            [sketch.dynamic :as dynamic]
+            [quil.core :as q]))
+
+(set-current-implementation :vectorz)
+(println)
 
 (q/defsketch example
              :title "{{name}}"
