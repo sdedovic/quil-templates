@@ -4,7 +4,7 @@
   :license {:name "Apache License, Version 2.0"
             :url "https://www.apache.org/licenses/LICENSE-2.0.html"}
   :dependencies [[org.clojure/clojure "1.11.1"]
-                 [com.dedovic/artlib-core "0.0.8"]
+                 [com.dedovic/artlib-core "0.0.10"]
                  [genartlib/genartlib "0.1.21"]] ; utility functions
   :jvm-opts ["-Xms4000m" "-Xmx4000M" ; 4GB heap size
              "-server"
