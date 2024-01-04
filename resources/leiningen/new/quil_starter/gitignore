@@ -14,3 +14,6 @@ pom.xml.asc
 # mercurial
 .hgignore
 .hg/
+
+# outputs from rendering with my middleware
+output/

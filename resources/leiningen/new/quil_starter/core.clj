@@ -14,6 +14,6 @@
              :draw dynamic/draw
              :update identity
              :size [800 800]
-             :animation {:render? false :dirname "EXAMPLE/1"}
+             :animation {:render? false :dirname "1"}
              :middleware [qm/fun-mode animation-mode])
 
