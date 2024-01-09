@@ -15,6 +15,7 @@
                   ["src/clj/sketch/core.clj" (render "core.clj" data)]
                   ["src/clj/sketch/dynamic.clj" (render "dynamic.clj" data)]
                   ["project.clj" (render "project.clj" data)]
+                  [".lein-repl-history" (render "lein-repl-history" data)]
                   ["LICENSE" (render "LICENSE" data)]
                   [".gitignore" (render "gitignore" data)]
                   ["README.md" (render "README.md" data)]
