@@ -1,4 +1,4 @@
-(defproject com.dedovic/lein-template.quil-starter "0.1.6-SNAPSHOT"
+(defproject com.dedovic/lein-template.quil-starter "0.1.6"
   :description "Leiningen template for a Quil starter project."
   :url "https://github.com/sdedovic/quil-templates"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
