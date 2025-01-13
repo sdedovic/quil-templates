@@ -5,6 +5,7 @@
             ; [genartlib.geometry :refer :all]
             ; [genartlib.random :refer :all]
             ; [kdtree :as kd]
+            [easings.core :as ease]
             [artlib.quil.global :refer :all]
             [genartlib.util :refer [w h]]
             [quil.core :as q]))
