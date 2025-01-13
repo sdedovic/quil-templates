@@ -1,4 +1,5 @@
 # com.dedovic/quil-starter
+[![Clojars Project](https://img.shields.io/clojars/v/com.dedovic/lein-template.quil-starter.svg)](https://clojars.org/com.dedovic/lein-template.quil-starter)
 
 A Leiningen template for my generative art backed by [Quil](http://quil.info).
 
