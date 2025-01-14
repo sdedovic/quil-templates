@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+### Changed
+
+- Upgrade version of `artlib.core`
+
 ## [0.1.9] — 2025-01-13
 
 ### Changed
