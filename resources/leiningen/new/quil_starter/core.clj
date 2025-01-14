@@ -5,9 +5,6 @@
             [sketch.dynamic :as dynamic]
             [quil.core :as q]))
 
-(set-current-implementation :vectorz)
-(println)
-
 (q/defsketch example
              :title "{{name}}"
              :setup (fn [] {})
