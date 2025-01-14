@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+## [0.1.10] — 2025-01-14
+
 ### Changed
 
 - Upgrade version of `artlib.core`
@@ -14,4 +16,5 @@ All notable changes to this project will be documented in this file. This change
 - Upgrade version of `artlib.core`
 
 [0.1.9]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.8...0.1.9
-[Unreleased]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.9...HEAD
+[0.1.10]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.9...0.1.10
+[Unreleased]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.10...HEAD
