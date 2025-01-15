@@ -1,4 +1,4 @@
-(defproject com.dedovic/lein-template.quil-starter "0.1.12-SNAPSHOT"
+(defproject com.dedovic/lein-template.quil-starter "0.1.12"
   :description "Leiningen template for a Quil starter project."
   :url "https://github.com/sdedovic/quil-templates"
   :plugins [[lein-changelog "0.3.2"]]

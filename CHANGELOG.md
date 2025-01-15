@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 
+## [0.1.12] — 2025-01-15
+
 ## [0.1.11] — 2025-01-14
 ### Fixed
 - Removed line setting `matrix.core` implementation to `vectorz` causing failure
@@ -18,4 +20,5 @@ All notable changes to this project will be documented in this file. This change
 [0.1.9]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.8...0.1.9
 [0.1.10]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.9...0.1.10
 [0.1.11]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.10...0.1.11
-[Unreleased]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.11...HEAD
+[0.1.12]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.11...0.1.12
+[Unreleased]: https://source-host.site/your-name/com.dedovic/quil-starter/compare/0.1.12...HEAD
