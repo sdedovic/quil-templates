@@ -2,6 +2,8 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Fixed
+- history file referenced incorrect function 'sketch'
 
 ## [0.1.14] — 2025-01-30
 ### Changed
