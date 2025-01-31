@@ -1,1 +1,2 @@
-(use 'sketch.core)
+(use 'sketch.core :reload-all)
+(sketch!)

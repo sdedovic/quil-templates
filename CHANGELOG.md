@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Changed
+- move call to spawn window into function to improve usage when spawning mulitple windows
+- update template project.clj to start sketch by default
 
 ## [0.1.13] — 2025-01-16
 
